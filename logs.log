@@ -1,0 +1,709 @@
+2025-11-20 23:03:10.773 | INFO     | config:<module>:66 - Configuration chargée avec succès.
+2025-11-20 23:03:10.773 | INFO     | __main__:run_ingestion:88 - 🚀 Début de l’ingestion...
+2025-11-20 23:03:10.774 | INFO     | __main__:load_pdfs:38 - 📄 Chargement du fichier : accenture-client-data-safeguards.pdf
+2025-11-20 23:03:12.471 | SUCCESS  | __main__:load_pdfs:48 - 📥 7 pages PDF chargées.
+2025-11-20 23:03:12.473 | SUCCESS  | __main__:chunk_documents:61 - 🧩 24 chunks générés.
+2025-11-20 23:03:12.474 | INFO     | __main__:embed_and_store:67 - 🔧 Initialisation des embeddings...
+2025-11-20 23:03:18.350 | INFO     | __main__:embed_and_store:74 - 💾 Création / mise à jour de la base Chroma...
+2025-11-20 23:03:29.209 | SUCCESS  | __main__:embed_and_store:83 - 🏁 Base vectorielle Chroma mise à jour avec succès !
+2025-11-20 23:03:29.209 | SUCCESS  | __main__:run_ingestion:94 - 🎉 Pipeline d’ingestion terminé !
+2025-11-20 23:10:29.758 | INFO     | config:<module>:66 - Configuration chargée avec succès.
+2025-11-20 23:12:27.768 | INFO     | config:<module>:79 - Configuration chargée avec succès.
+2025-11-20 23:12:27.769 | INFO     | __main__:<module>:111 - 📨 Mode interactif RAG lancé !
+2025-11-20 23:12:52.229 | INFO     | __main__:load_vectorstore:28 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-20 23:12:55.065 | SUCCESS  | __main__:load_vectorstore:38 - 📚 Base vectorielle chargée avec succès.
+2025-11-20 23:12:55.066 | INFO     | __main__:rag_query:73 - 🔎 Recherche de documents pertinents...
+2025-11-20 23:18:41.515 | INFO     | config:<module>:79 - Configuration chargée avec succès.
+2025-11-20 23:18:41.516 | INFO     | __main__:<module>:111 - 📨 Mode interactif RAG lancé !
+2025-11-20 23:18:49.751 | INFO     | __main__:load_vectorstore:28 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-20 23:18:52.557 | SUCCESS  | __main__:load_vectorstore:38 - 📚 Base vectorielle chargée avec succès.
+2025-11-20 23:18:52.558 | INFO     | __main__:rag_query:73 - 🔎 Recherche de documents pertinents...
+2025-11-20 23:18:54.225 | INFO     | __main__:rag_query:76 - 📄 0 documents récupérés.
+2025-11-20 23:18:55.308 | INFO     | __main__:rag_query:101 - 🧠 Génération de la réponse via OpenAI...
+2025-11-20 23:25:17.316 | INFO     | config:<module>:79 - Configuration chargée avec succès.
+2025-11-20 23:25:17.316 | INFO     | __main__:<module>:114 - 📨 Mode interactif RAG lancé !
+2025-11-20 23:25:31.339 | INFO     | __main__:load_vectorstore:28 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-20 23:25:34.492 | SUCCESS  | __main__:load_vectorstore:41 - 📚 Base vectorielle chargée avec succès.
+2025-11-20 23:25:34.493 | INFO     | __main__:rag_query:76 - 🔎 Recherche de documents pertinents...
+2025-11-20 23:25:35.273 | INFO     | __main__:rag_query:79 - 📄 0 documents récupérés.
+2025-11-20 23:25:36.421 | INFO     | __main__:rag_query:104 - 🧠 Génération de la réponse via OpenAI...
+2025-11-20 23:34:16.456 | INFO     | config:<module>:79 - Configuration chargée avec succès.
+2025-11-20 23:34:16.457 | INFO     | __main__:run_ingestion:89 - 🚀 Début de l’ingestion...
+2025-11-20 23:34:16.458 | INFO     | __main__:load_pdfs:37 - 📄 Chargement du fichier : accenture-client-data-safeguards.pdf
+2025-11-20 23:34:17.101 | SUCCESS  | __main__:load_pdfs:48 - 📥 7 pages PDF chargées.
+2025-11-20 23:34:17.105 | SUCCESS  | __main__:chunk_documents:60 - 🧩 24 chunks générés.
+2025-11-20 23:34:17.105 | INFO     | __main__:embed_and_store:66 - 🔧 Initialisation des embeddings...
+2025-11-20 23:34:18.725 | INFO     | __main__:embed_and_store:73 - 💾 Création / mise à jour de la base Chroma...
+2025-11-20 23:34:21.728 | SUCCESS  | __main__:embed_and_store:84 - 🏁 Base vectorielle Chroma mise à jour avec succès !
+2025-11-20 23:34:21.728 | SUCCESS  | __main__:run_ingestion:95 - 🎉 Pipeline d’ingestion terminé !
+2025-11-20 23:34:38.445 | INFO     | config:<module>:79 - Configuration chargée avec succès.
+2025-11-20 23:34:38.446 | INFO     | __main__:<module>:114 - 📨 Mode interactif RAG lancé !
+2025-11-20 23:34:51.569 | INFO     | __main__:load_vectorstore:29 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-20 23:34:54.403 | SUCCESS  | __main__:load_vectorstore:42 - 📚 Base vectorielle chargée avec succès.
+2025-11-20 23:34:54.404 | INFO     | __main__:rag_query:75 - 🔎 Recherche de documents pertinents...
+2025-11-20 23:34:55.091 | INFO     | __main__:rag_query:77 - 📄 5 documents récupérés.
+2025-11-20 23:34:56.266 | INFO     | __main__:rag_query:101 -  🧠 Génération de la réponse via OpenAI...
+2025-11-21 00:03:26.838 | INFO     | config:<module>:79 - Configuration chargée avec succès.
+2025-11-21 00:08:48.634 | INFO     | config:<module>:79 - Configuration chargée avec succès.
+2025-11-21 00:09:41.320 | INFO     | src.agents.rag_agent:run_rag_agent:9 - 🤖 Agent RAG déclenché.
+2025-11-21 00:09:41.321 | INFO     | src.retrieval:load_vectorstore:29 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-21 00:09:44.913 | SUCCESS  | src.retrieval:load_vectorstore:42 - 📚 Base vectorielle chargée avec succès.
+2025-11-21 00:09:44.914 | INFO     | src.retrieval:get_relevant_docs:57 - 🔎 Recherche de documents pertinents...
+2025-11-21 00:09:46.538 | INFO     | src.retrieval:get_relevant_docs:59 - 📄 5 documents récupérés.
+2025-11-21 00:09:47.957 | INFO     | src.retrieval:rag_query:105 -  🧠 Génération de la réponse via OpenAI...
+2025-11-21 00:10:12.185 | INFO     | src.agents.summary_agent:run_summary_agent:35 - 🧾 Agent Summary déclenché.
+2025-11-21 00:10:12.186 | INFO     | src.retrieval:load_vectorstore:29 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-21 00:10:13.704 | SUCCESS  | src.retrieval:load_vectorstore:42 - 📚 Base vectorielle chargée avec succès.
+2025-11-21 00:10:13.705 | INFO     | src.retrieval:get_relevant_docs:57 - 🔎 Recherche de documents pertinents...
+2025-11-21 00:10:14.509 | INFO     | src.retrieval:get_relevant_docs:59 - 📄 8 documents récupérés.
+2025-11-21 00:19:55.809 | INFO     | config:<module>:79 - Configuration chargée avec succès.
+2025-11-21 19:25:41.435 | INFO     | config:<module>:79 - Configuration chargée avec succès.
+2025-11-21 19:29:06.920 | INFO     | config:<module>:85 - Configuration chargée avec succès.
+2025-11-21 19:29:06.920 | INFO     | config:<module>:85 - Configuration chargée avec succès.
+2025-11-21 19:35:00.245 | INFO     | config:<module>:96 - Configuration chargée avec succès.
+2025-11-21 19:35:00.245 | INFO     | config:<module>:96 - Configuration chargée avec succès.
+2025-11-21 19:35:00.245 | INFO     | config:<module>:96 - Configuration chargée avec succès.
+2025-11-21 19:43:07.078 | INFO     | config:<module>:96 - Configuration chargée avec succès.
+2025-11-21 19:43:07.078 | INFO     | config:<module>:96 - Configuration chargée avec succès.
+2025-11-21 19:43:07.078 | INFO     | config:<module>:96 - Configuration chargée avec succès.
+2025-11-21 19:43:07.078 | INFO     | config:<module>:96 - Configuration chargée avec succès.
+2025-11-21 19:45:02.636 | INFO     | config:<module>:96 - Configuration chargée avec succès.
+2025-11-21 20:11:28.753 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:11:28.753 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:14:13.787 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:14:13.787 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:14:13.787 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:21:39.623 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:21:39.623 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:21:39.623 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:21:39.623 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:26:17.733 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:26:17.733 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:26:17.733 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:26:17.733 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:26:17.733 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:33:37.942 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:33:37.942 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:33:37.942 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:33:37.942 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:33:37.942 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:33:37.942 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-21 20:33:56.314 | INFO     | __main__:run_agent:83 - 🎯 Orchestrateur : agent sélectionné = rag
+2025-11-21 20:33:56.314 | INFO     | __main__:run_agent:83 - 🎯 Orchestrateur : agent sélectionné = rag
+2025-11-21 20:33:56.314 | INFO     | __main__:run_agent:83 - 🎯 Orchestrateur : agent sélectionné = rag
+2025-11-21 20:33:56.314 | INFO     | __main__:run_agent:83 - 🎯 Orchestrateur : agent sélectionné = rag
+2025-11-21 20:33:56.314 | INFO     | __main__:run_agent:83 - 🎯 Orchestrateur : agent sélectionné = rag
+2025-11-21 20:33:56.314 | INFO     | __main__:run_agent:83 - 🎯 Orchestrateur : agent sélectionné = rag
+2025-11-21 20:33:56.316 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-21 20:33:56.316 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-21 20:33:56.316 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-21 20:33:56.316 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-21 20:33:56.316 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-21 20:33:56.316 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-21 20:33:56.319 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-21 20:33:56.319 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-21 20:33:56.319 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-21 20:33:56.319 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-21 20:33:56.319 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-21 20:33:56.319 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-21 20:34:03.654 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-21 20:34:03.654 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-21 20:34:03.654 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-21 20:34:03.654 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-21 20:34:03.654 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-21 20:34:03.654 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-21 20:34:03.656 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-21 20:34:03.656 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-21 20:34:03.656 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-21 20:34:03.656 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-21 20:34:03.656 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-21 20:34:03.656 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-21 20:34:05.167 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-21 20:34:05.167 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-21 20:34:05.167 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-21 20:34:05.167 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-21 20:34:05.167 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-21 20:34:05.167 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-21 20:34:14.180 | ERROR    | __main__:main:190 - 💥 Erreur dans l'exécution de l'agent.
+Traceback (most recent call last):
+
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x0000028A4205F060>
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x0000028A4205EDE0>
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 129440)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 129440)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 378, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x0000028A4298F3D0>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=widgets {
+    │    │               id: "$$ID-75b8f6e8550c...
+    │    └ <function ScriptRunner._run_script at 0x0000028A42AB5080>
+    └ ScriptRunner(_session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _main_script_path='app.py', _session_state={last_agent: 'RAG...
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 685, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000028A68C456C0>
+        └ <function exec_func_with_error_handling at 0x0000028A42A49620>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000028A68C456C0>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'app.py'>
+         └ <code object <module> at 0x0000028A688D5620, file "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-govern...
+
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\app.py", line 199, in <module>
+    main()
+    └ <function main at 0x0000028A68C46FC0>
+
+> File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\app.py", line 187, in main
+    render_message(role="assistant", content=full_answer, agent=agent_name)
+    │                                        │                  └ 'RAG Agent'
+    │                                        └ 'Voici un résumé structuré du texte fourni :\n\n1. **Gestion des opérations et des communications**  \n   - **Politique opéra...
+    └ <function render_message at 0x0000028A68B57CE0>
+
+TypeError: render_message() got an unexpected keyword argument 'agent'
+2025-11-21 20:34:14.180 | ERROR    | __main__:main:190 - 💥 Erreur dans l'exécution de l'agent.
+Traceback (most recent call last):
+
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x0000028A4205F060>
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x0000028A4205EDE0>
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 129440)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 129440)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 378, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x0000028A4298F3D0>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=widgets {
+    │    │               id: "$$ID-75b8f6e8550c...
+    │    └ <function ScriptRunner._run_script at 0x0000028A42AB5080>
+    └ ScriptRunner(_session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _main_script_path='app.py', _session_state={last_agent: 'RAG...
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 685, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000028A68C456C0>
+        └ <function exec_func_with_error_handling at 0x0000028A42A49620>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000028A68C456C0>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'app.py'>
+         └ <code object <module> at 0x0000028A688D5620, file "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-govern...
+
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\app.py", line 199, in <module>
+    main()
+    └ <function main at 0x0000028A68C46FC0>
+
+> File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\app.py", line 187, in main
+    render_message(role="assistant", content=full_answer, agent=agent_name)
+    │                                        │                  └ 'RAG Agent'
+    │                                        └ 'Voici un résumé structuré du texte fourni :\n\n1. **Gestion des opérations et des communications**  \n   - **Politique opéra...
+    └ <function render_message at 0x0000028A68B57CE0>
+
+TypeError: render_message() got an unexpected keyword argument 'agent'
+2025-11-21 20:34:14.180 | ERROR    | __main__:main:190 - 💥 Erreur dans l'exécution de l'agent.
+Traceback (most recent call last):
+
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x0000028A4205F060>
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x0000028A4205EDE0>
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 129440)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 129440)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 378, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x0000028A4298F3D0>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=widgets {
+    │    │               id: "$$ID-75b8f6e8550c...
+    │    └ <function ScriptRunner._run_script at 0x0000028A42AB5080>
+    └ ScriptRunner(_session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _main_script_path='app.py', _session_state={last_agent: 'RAG...
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 685, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000028A68C456C0>
+        └ <function exec_func_with_error_handling at 0x0000028A42A49620>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000028A68C456C0>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'app.py'>
+         └ <code object <module> at 0x0000028A688D5620, file "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-govern...
+
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\app.py", line 199, in <module>
+    main()
+    └ <function main at 0x0000028A68C46FC0>
+
+> File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\app.py", line 187, in main
+    render_message(role="assistant", content=full_answer, agent=agent_name)
+    │                                        │                  └ 'RAG Agent'
+    │                                        └ 'Voici un résumé structuré du texte fourni :\n\n1. **Gestion des opérations et des communications**  \n   - **Politique opéra...
+    └ <function render_message at 0x0000028A68B57CE0>
+
+TypeError: render_message() got an unexpected keyword argument 'agent'
+2025-11-21 20:34:14.180 | ERROR    | __main__:main:190 - 💥 Erreur dans l'exécution de l'agent.
+Traceback (most recent call last):
+
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x0000028A4205F060>
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x0000028A4205EDE0>
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 129440)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 129440)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 378, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x0000028A4298F3D0>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=widgets {
+    │    │               id: "$$ID-75b8f6e8550c...
+    │    └ <function ScriptRunner._run_script at 0x0000028A42AB5080>
+    └ ScriptRunner(_session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _main_script_path='app.py', _session_state={last_agent: 'RAG...
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 685, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000028A68C456C0>
+        └ <function exec_func_with_error_handling at 0x0000028A42A49620>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000028A68C456C0>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'app.py'>
+         └ <code object <module> at 0x0000028A688D5620, file "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-govern...
+
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\app.py", line 199, in <module>
+    main()
+    └ <function main at 0x0000028A68C46FC0>
+
+> File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\app.py", line 187, in main
+    render_message(role="assistant", content=full_answer, agent=agent_name)
+    │                                        │                  └ 'RAG Agent'
+    │                                        └ 'Voici un résumé structuré du texte fourni :\n\n1. **Gestion des opérations et des communications**  \n   - **Politique opéra...
+    └ <function render_message at 0x0000028A68B57CE0>
+
+TypeError: render_message() got an unexpected keyword argument 'agent'
+2025-11-21 20:34:14.180 | ERROR    | __main__:main:190 - 💥 Erreur dans l'exécution de l'agent.
+Traceback (most recent call last):
+
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x0000028A4205F060>
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x0000028A4205EDE0>
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 129440)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 129440)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 378, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x0000028A4298F3D0>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=widgets {
+    │    │               id: "$$ID-75b8f6e8550c...
+    │    └ <function ScriptRunner._run_script at 0x0000028A42AB5080>
+    └ ScriptRunner(_session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _main_script_path='app.py', _session_state={last_agent: 'RAG...
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 685, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000028A68C456C0>
+        └ <function exec_func_with_error_handling at 0x0000028A42A49620>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000028A68C456C0>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'app.py'>
+         └ <code object <module> at 0x0000028A688D5620, file "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-govern...
+
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\app.py", line 199, in <module>
+    main()
+    └ <function main at 0x0000028A68C46FC0>
+
+> File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\app.py", line 187, in main
+    render_message(role="assistant", content=full_answer, agent=agent_name)
+    │                                        │                  └ 'RAG Agent'
+    │                                        └ 'Voici un résumé structuré du texte fourni :\n\n1. **Gestion des opérations et des communications**  \n   - **Politique opéra...
+    └ <function render_message at 0x0000028A68B57CE0>
+
+TypeError: render_message() got an unexpected keyword argument 'agent'
+2025-11-21 20:34:14.180 | ERROR    | __main__:main:190 - 💥 Erreur dans l'exécution de l'agent.
+Traceback (most recent call last):
+
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x0000028A4205F060>
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x0000028A4205EDE0>
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 129440)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 129440)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 129440)>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 378, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x0000028A4298F3D0>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=widgets {
+    │    │               id: "$$ID-75b8f6e8550c...
+    │    └ <function ScriptRunner._run_script at 0x0000028A42AB5080>
+    └ ScriptRunner(_session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _main_script_path='app.py', _session_state={last_agent: 'RAG...
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 685, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='dfaab7d1-8af8-4278-a7bb-75678fa5349d', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000028A68C456C0>
+        └ <function exec_func_with_error_handling at 0x0000028A42A49620>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000028A68C456C0>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'app.py'>
+         └ <code object <module> at 0x0000028A688D5620, file "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-govern...
+
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\app.py", line 199, in <module>
+    main()
+    └ <function main at 0x0000028A68C46FC0>
+
+> File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\app.py", line 187, in main
+    render_message(role="assistant", content=full_answer, agent=agent_name)
+    │                                        │                  └ 'RAG Agent'
+    │                                        └ 'Voici un résumé structuré du texte fourni :\n\n1. **Gestion des opérations et des communications**  \n   - **Politique opéra...
+    └ <function render_message at 0x0000028A68B57CE0>
+
+TypeError: render_message() got an unexpected keyword argument 'agent'
+2025-11-22 19:53:58.487 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-22 19:55:51.233 | INFO     | __main__:run_agent:83 - 🎯 Orchestrateur : agent sélectionné = rag
+2025-11-22 19:55:51.234 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-22 19:55:51.234 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-22 19:55:57.985 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-22 19:55:57.986 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-22 19:56:00.056 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-22 19:56:14.150 | ERROR    | __main__:main:190 - 💥 Erreur dans l'exécution de l'agent.
+Traceback (most recent call last):
+
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000002405942F060>
+    └ <Thread(ScriptRunner.scriptThread, started 56912)>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000002405942EDE0>
+    └ <Thread(ScriptRunner.scriptThread, started 56912)>
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 56912)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 56912)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='b7679257-1faf-4a24-9319-7083ed6dfe3c', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 56912)>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 378, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x0000024059CBF3D0>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=widgets {
+    │    │               id: "$$ID-75b8f6e8550c...
+    │    └ <function ScriptRunner._run_script at 0x0000024059DE5080>
+    └ ScriptRunner(_session_id='b7679257-1faf-4a24-9319-7083ed6dfe3c', _main_script_path='app.py', _session_state={messages: [{'rol...
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 685, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='b7679257-1faf-4a24-9319-7083ed6dfe3c', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x000002407FF9E700>
+        └ <function exec_func_with_error_handling at 0x0000024059D79620>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x000002407FF9E700>
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'app.py'>
+         └ <code object <module> at 0x000002405C5F1620, file "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-govern...
+
+  File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\app.py", line 199, in <module>
+    main()
+    └ <function main at 0x000002407FF9E520>
+
+> File "C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\app.py", line 187, in main
+    render_message(role="assistant", content=full_answer, agent=agent_name)
+    │                                        │                  └ 'RAG Agent'
+    │                                        └ 'Voici un résumé structuré du contenu fourni.\n\n1. Gouvernance opérationnelle et communications  \n- Accenture maintient une...
+    └ <function render_message at 0x000002405C6FF060>
+
+TypeError: render_message() got an unexpected keyword argument 'agent'
+2025-11-22 20:05:12.660 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-22 20:05:12.660 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-22 20:05:47.151 | INFO     | __main__:run_agent:83 - 🎯 Orchestrateur : agent sélectionné = summary
+2025-11-22 20:05:47.151 | INFO     | __main__:run_agent:83 - 🎯 Orchestrateur : agent sélectionné = summary
+2025-11-22 20:05:47.152 | INFO     | src.agents.summary_agent:run_summary_agent:38 - 📝 [SUMMARY_AGENT] Démarrage de l’agent de résumé...
+2025-11-22 20:05:47.152 | INFO     | src.agents.summary_agent:run_summary_agent:38 - 📝 [SUMMARY_AGENT] Démarrage de l’agent de résumé...
+2025-11-22 20:05:47.153 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-22 20:05:47.153 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-22 20:05:48.698 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-22 20:05:48.698 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-22 20:05:49.773 | INFO     | src.agents.summary_agent:run_summary_agent:58 - 🧠 [SUMMARY_AGENT] Appel du LLM pour synthèse...
+2025-11-22 20:05:49.773 | INFO     | src.agents.summary_agent:run_summary_agent:58 - 🧠 [SUMMARY_AGENT] Appel du LLM pour synthèse...
+2025-11-22 20:07:45.162 | INFO     | __main__:run_agent:83 - 🎯 Orchestrateur : agent sélectionné = rag
+2025-11-22 20:07:45.162 | INFO     | __main__:run_agent:83 - 🎯 Orchestrateur : agent sélectionné = rag
+2025-11-22 20:07:45.163 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-22 20:07:45.163 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-22 20:07:45.164 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-22 20:07:45.164 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-22 20:07:46.567 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-22 20:07:46.567 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-22 20:07:46.568 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-22 20:07:46.568 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-22 20:07:47.781 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-22 20:07:47.781 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-22 21:57:11.143 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-22 21:57:11.143 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-22 21:57:11.143 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-22 22:01:58.478 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Low (Agile)
+2025-11-22 22:01:58.478 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Low (Agile)
+2025-11-22 22:01:58.478 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Low (Agile)
+2025-11-22 22:01:58.480 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-22 22:01:58.480 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-22 22:01:58.480 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-22 22:01:58.480 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-22 22:01:58.480 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-22 22:01:58.480 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-22 22:01:59.916 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-22 22:01:59.916 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-22 22:01:59.916 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-22 22:01:59.916 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-22 22:01:59.916 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-22 22:01:59.916 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-22 22:02:00.699 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-22 22:02:00.699 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-22 22:02:00.699 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-22 22:03:00.514 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, High (Critical)
+2025-11-22 22:03:00.514 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, High (Critical)
+2025-11-22 22:03:00.514 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, High (Critical)
+2025-11-22 22:03:00.515 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-22 22:03:00.515 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-22 22:03:00.515 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-22 22:03:00.516 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-22 22:03:00.516 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-22 22:03:00.516 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-22 22:03:02.194 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-22 22:03:02.194 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-22 22:03:02.194 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-22 22:03:02.195 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-22 22:03:02.195 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-22 22:03:02.195 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-22 22:03:02.464 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-22 22:03:02.464 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-22 22:03:02.464 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-23 02:24:09.686 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 02:24:09.687 | INFO     | __main__:run_ingestion:123 - 🚀 Démarrage du pipeline d'ingestion Data Governance...
+2025-11-23 02:24:09.705 | WARNING  | __main__:reset_vector_db:40 - 🧹 Ancienne base de données supprimée : C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\chroma_db
+2025-11-23 02:24:09.706 | INFO     | __main__:load_pdfs:56 - 📂 Découverte de 12 fichiers PDF...
+2025-11-23 02:24:15.575 | SUCCESS  | __main__:load_pdfs:79 - 📥 146 pages chargées au total.
+2025-11-23 02:24:15.600 | SUCCESS  | __main__:chunk_documents:95 - 🧩 Découpage terminé : 287 fragments générés.
+2025-11-23 02:24:15.601 | INFO     | __main__:embed_and_store:101 - ⚙️ Initialisation du modèle d'Embeddings OpenAI...
+2025-11-23 02:24:20.871 | INFO     | __main__:embed_and_store:108 - 💾 Indexation dans ChromaDB (C:\Users\leonw\Downloads\Projet Portfolio stage\Projet chatbot\data-governance-rag\data-governance-rag\chroma_db)...
+2025-11-23 02:24:29.548 | SUCCESS  | __main__:embed_and_store:118 - 🏁 Indexation terminée avec succès !
+2025-11-23 02:24:29.548 | SUCCESS  | __main__:run_ingestion:140 - 🎉 Base de connaissance mise à jour !
+2025-11-23 02:26:30.855 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 02:27:45.363 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Medium (Standard)
+2025-11-23 02:27:45.364 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-23 02:27:45.365 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-23 02:27:47.571 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-23 02:27:47.572 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-23 02:27:49.070 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-23 02:32:01.813 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 02:32:01.813 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 02:32:33.022 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Medium (Standard)
+2025-11-23 02:32:33.022 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Medium (Standard)
+2025-11-23 02:32:33.024 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-23 02:32:33.024 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-23 02:32:33.024 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-23 02:32:33.024 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-23 02:32:34.381 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-23 02:32:34.381 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-23 02:32:34.382 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-23 02:32:34.382 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-23 02:32:34.786 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-23 02:32:34.786 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-23 02:35:52.470 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Medium (Standard)
+2025-11-23 02:35:52.470 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Medium (Standard)
+2025-11-23 02:35:52.471 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-23 02:35:52.471 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-23 02:35:52.472 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-23 02:35:52.472 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-23 02:35:54.058 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-23 02:35:54.058 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-23 02:35:54.059 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-23 02:35:54.059 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-23 02:35:54.346 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-23 02:35:54.346 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-23 02:37:37.060 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 02:37:37.060 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 02:37:37.060 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 02:37:45.767 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Medium (Standard)
+2025-11-23 02:37:45.767 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Medium (Standard)
+2025-11-23 02:37:45.767 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Medium (Standard)
+2025-11-23 02:37:45.769 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-23 02:37:45.769 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-23 02:37:45.769 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-23 02:37:45.769 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-23 02:37:45.769 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-23 02:37:45.769 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-23 02:37:47.233 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-23 02:37:47.233 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-23 02:37:47.233 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-23 02:37:47.234 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-23 02:37:47.234 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-23 02:37:47.234 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-23 02:37:47.810 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-23 02:37:47.810 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-23 02:37:47.810 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-23 02:42:28.920 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Medium (Standard)
+2025-11-23 02:42:28.920 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Medium (Standard)
+2025-11-23 02:42:28.920 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Medium (Standard)
+2025-11-23 02:42:28.921 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-23 02:42:28.921 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-23 02:42:28.921 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-23 02:42:28.922 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-23 02:42:28.922 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-23 02:42:28.922 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-23 02:42:30.355 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-23 02:42:30.355 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-23 02:42:30.355 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-23 02:42:30.356 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-23 02:42:30.356 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-23 02:42:30.356 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-23 02:42:30.617 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-23 02:42:30.617 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-23 02:42:30.617 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-23 21:51:16.266 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:22:54.144 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: rag | Context: EU AI Act, Medium (Standard)
+2025-11-23 22:22:54.145 | INFO     | src.agents.rag_agent:run_rag_agent:40 - 🤖 [RAG_AGENT] Démarrage du RAG agent...
+2025-11-23 22:22:54.145 | INFO     | src.retrieval:load_vectorstore:38 - 📦 Chargement de la base vectorielle Chroma...
+2025-11-23 22:23:01.940 | SUCCESS  | src.retrieval:load_vectorstore:48 - 📚 Base vectorielle chargée avec succès.
+2025-11-23 22:23:01.941 | INFO     | src.agents.rag_agent:run_rag_agent:49 - 🔎 [RAG_AGENT] Récupération des documents pertinents...
+2025-11-23 22:23:03.596 | INFO     | src.agents.rag_agent:run_rag_agent:52 - 🧠 [RAG_AGENT] Appel du LLM pour réponse RAG...
+2025-11-23 22:26:36.718 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 22:26:36.719 | INFO     | src.agents.governance_agent:run_governance_agent:18 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 22:42:03.212 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:42:03.212 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:42:11.099 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:42:11.099 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:42:11.099 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:42:11.523 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 22:42:11.523 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 22:42:11.523 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 22:42:11.524 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 22:42:11.524 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 22:42:11.524 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 22:49:03.009 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:49:03.009 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:49:03.009 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:49:03.009 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:49:17.848 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 22:49:17.848 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 22:49:17.848 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 22:49:17.848 | INFO     | __main__:run_agent_engine:77 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 22:49:17.849 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 22:49:17.849 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 22:49:17.849 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 22:49:17.849 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 22:57:54.146 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:57:54.146 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:57:54.146 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:57:54.146 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:57:54.146 | INFO     | config:<module>:99 - Configuration chargée avec succès.
+2025-11-23 22:58:05.894 | INFO     | __main__:run_agent_engine:79 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 22:58:05.894 | INFO     | __main__:run_agent_engine:79 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 22:58:05.894 | INFO     | __main__:run_agent_engine:79 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 22:58:05.894 | INFO     | __main__:run_agent_engine:79 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 22:58:05.894 | INFO     | __main__:run_agent_engine:79 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 22:58:05.896 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 22:58:05.896 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 22:58:05.896 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 22:58:05.896 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 22:58:05.896 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 23:30:30.664 | INFO     | config:<module>:86 - Config chargée. Modèle actif : gpt-5.1
+2025-11-23 23:30:30.664 | INFO     | config:<module>:86 - Config chargée. Modèle actif : gpt-5.1
+2025-11-23 23:30:30.664 | INFO     | config:<module>:86 - Config chargée. Modèle actif : gpt-5.1
+2025-11-23 23:30:30.664 | INFO     | config:<module>:86 - Config chargée. Modèle actif : gpt-5.1
+2025-11-23 23:30:30.664 | INFO     | config:<module>:86 - Config chargée. Modèle actif : gpt-5.1
+2025-11-23 23:30:30.664 | INFO     | config:<module>:86 - Config chargée. Modèle actif : gpt-5.1
+2025-11-23 23:34:17.591 | INFO     | config:<module>:94 - Config chargée. Modèle actif : gpt-5.1
+2025-11-23 23:34:17.591 | INFO     | config:<module>:94 - Config chargée. Modèle actif : gpt-5.1
+2025-11-23 23:34:17.591 | INFO     | config:<module>:94 - Config chargée. Modèle actif : gpt-5.1
+2025-11-23 23:34:17.591 | INFO     | config:<module>:94 - Config chargée. Modèle actif : gpt-5.1
+2025-11-23 23:34:17.591 | INFO     | config:<module>:94 - Config chargée. Modèle actif : gpt-5.1
+2025-11-23 23:34:17.591 | INFO     | config:<module>:94 - Config chargée. Modèle actif : gpt-5.1
+2025-11-23 23:34:17.591 | INFO     | config:<module>:94 - Config chargée. Modèle actif : gpt-5.1
+2025-11-23 23:34:37.232 | INFO     | __main__:run_agent_engine:79 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 23:34:37.232 | INFO     | __main__:run_agent_engine:79 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 23:34:37.232 | INFO     | __main__:run_agent_engine:79 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 23:34:37.232 | INFO     | __main__:run_agent_engine:79 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 23:34:37.232 | INFO     | __main__:run_agent_engine:79 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 23:34:37.232 | INFO     | __main__:run_agent_engine:79 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 23:34:37.232 | INFO     | __main__:run_agent_engine:79 - 🚀 Execution Agent: governance | Context: EU AI Act, Medium (Standard)
+2025-11-23 23:34:37.234 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 23:34:37.234 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 23:34:37.234 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 23:34:37.234 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 23:34:37.234 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 23:34:37.234 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
+2025-11-23 23:34:37.234 | INFO     | src.agents.governance_agent:run_governance_agent:17 - 📘 [GOVERNANCE] Démarrage... (Risk Level: Medium (Standard))
